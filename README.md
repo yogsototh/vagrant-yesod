@@ -20,3 +20,8 @@ cd vagrant-yesod
 ~~~
 
 and then visit: [http://192.168.33.10:3000](http://192.168.33.10:3000)
+
+## More recent yesod version
+
+If you want to use a more recent version of yesod, just start from a fresh
+ubuntu image and launch the "bootstrapvm.sh" script inside the VM.
