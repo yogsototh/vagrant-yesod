@@ -1,4 +1,4 @@
-exec: ../dist/build/waiter/waiter
+exec: ../dist/build/yosog/yosog
 args:
     - production
 host: <<HOST-NOT-SET>>
