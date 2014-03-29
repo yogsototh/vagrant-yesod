@@ -32,7 +32,7 @@ $newline never
 
         $maybe analytics <- extraAnalytics $ appExtra $ settings master
             <script>
-              if(!window.location.href.match(/localhost/)){
+              if(!window.location.href.match(/192.168.33.10/)){
                 window._gaq = [['_setAccount','#{analytics}'],['_trackPageview'],['_trackPageLoadTime']];
                 (function() {
                 \  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;

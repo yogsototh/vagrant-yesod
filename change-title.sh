@@ -1,6 +1,6 @@
 #!/bin/bash
 
-currentProjectName="yosog"
+currentProjectName=$( basename *.cabal '.cabal' )
 projectName="$1"
 
 for fic in **/*; do
@@ -11,3 +11,5 @@ for fic in **/*; do
         fi
     fi
 done
+
+mv $currentProjectName.cabal $projectName.cabal
