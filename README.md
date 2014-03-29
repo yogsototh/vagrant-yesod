@@ -21,6 +21,11 @@ cd vagrant-yesod
 
 and then visit: [http://192.168.33.10:3000](http://192.168.33.10:3000)
 
+## Debugging
+
+I didn't done it. But you could install `cabal-ghci` package.
+This will run ghci using your installed packages.
+
 ## More recent yesod version
 
 If you want to use a more recent version of yesod, just start from a fresh
